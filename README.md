@@ -1,3 +1,5 @@
+HARRO
+
 # Binary Translator
 
 ## Instructions
