@@ -4,8 +4,8 @@ HARRO
 
 ## Instructions
 
-1. Fork this Repository
-1. Clone your forked repo to your computer.
+1. Fork this Repository DONE
+1. Clone your forked repo to your computer. DONE
 1. Complete the activity below.
 1. Push your solution to your forked repo
 1. Submit a pull request from your repository to this repository
@@ -26,13 +26,15 @@ binary_translator.rb includes a map from a lowercase letter to binary that you w
 
 ```ruby
 require './lib/binary_translator'
-=> true
-bt = BinaryTranslator.new
-=> #<BinaryTranslator:0x00007f85993a5720 @alpha_to_binary = {...}>
-bt.translate("a")
+=> true #come back to this one
+bt = BinaryTranslator.new #this means the object should have the object id and the stuff in it. its  test for existence.
+=> #<BinaryTranslator:0x00007f85993a5720 @alpha_to_binary = {...}>DONE
+bt.translate("a") #in this one i am asserting that the input ("a") spit out the string "000001". its an assert equal test
+#done
 => "000001"
 bt.translate("z")
 => "011010"
+#done
 bt.translate("turing")
 => "010100010101010010001001001110000111"
 ```
