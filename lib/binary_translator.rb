@@ -1,5 +1,5 @@
 class BinaryTranslator
-  attr_accessor :translate
+  
   def initialize
     @alpha_to_binary = {
       "a" => "000001",
